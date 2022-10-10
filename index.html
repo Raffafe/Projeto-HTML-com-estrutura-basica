@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML na Práticap</title>
+    <style>
+        p {
+            text-align: justify;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    
+    <nav>
+        <h1 id="inicio">Resumo para preparar meu ambiente de programação</h1>
+        <ul>
+            
+                <li><a href="#ferramentas">Ferramentas Utilizadas</a></li>
+                <ul><sub><li><a href="#vscode">Como instalar o Visual Studio Code no Windows</a></li></sub></ul>
+                <li><a href="#elementos">Inspetor de Elementos</a></li>
+                <li> <a href="#estrutura">Estrutura Básica do HTML</a></li>
+                <li><a href="#tag">Como as tags funcionam</a></li>
+                <li><a href="#atributos_da_tag">Atributos das Tags</a></li>
+                <li><a href="#tag_para_textos">Tags para textos</a></li>
+                <li><a href="#tags_de _listas">Tags de Listas</a></li>
+                <li><a href="#como_criar_links">Como criar links</a></li>
+                <li><a href="#multimidia">Tags de multimídia</a>
+                <ul>
+                    <sub>
+                        <li><a href="#img">Como colocar imagens no seu HTML</a></li>
+                    <li><a href="#video">Como colocar vídeo no seu HTML</a></li>
+                    <li><a href="#audio">Como colocar áudio no seu HTML</a></li>
+                </sub>
+                </ul>
+                </li>
+          
+      </nav> 
+    <hr/>  
+    
+        <h2 id="ferramentas">Ferramentas Utilizadas</h2>
+        <small><a href="#inicio">Voltar</a></small>
+        <p>Uma das ferramentas básicas que irá ser necessária é um editor de texto, mas não só um editor qualquer, você precisa de um editor com mais funcionalidades para a programação, o que eu uso aqui é o Visual Studio Code.</p>
+            <h3 id="vscode">Como instalar o Visual Studio Code no Windows</h3>
+            <p>Primeiramente você precisa clicar nesse <a href="https://code.visualstudio.com/" target="_blank" title="Link para instalação do VSCode">link</a>, na nova aba que se abriu, clique o botão "Download for Windows" e aguarde completar o download. Terminado o download abra o arquivo, aceite os termos e continue clicando em "próximo" até começar a instalação, e terminando a instalação apenas clique em "finalizar". E o VSCode está instalado em sua máquina.</p>
+         
+        <h2 id="elementos">Inspetor de Elementos</h2>
+        <small><a href="#inicio">Voltar</a></small>
+        <h3>Ferramentas do desenvolvedor</h3>
+        <p>As Ferramentas para desenvolvedores do Google Chrome permitem analisar rapidamente o conteúdo/recursos de uma página da Web. Isso ajuda a verificar suas tags do Campaign Manager 360.</p>
+        <h4>Vou te mostrar 3 formas de acessar as Ferramentas para Desenvolvedores</h4>
+        <ul>
+            <li>Você pode acessar a ferramenta do desenvolver usando a tecla F12</li>
+           <br/>
+            <li>Passo a passo I:
+               <br/>
+                <ol>
+                    <li>Clique com o botão direito do mouse em uma página e selecione "Inspecionar elemento". O código HTML do elemento clicado será exibido.</li>
+                    <li>Selecione Visualização > Desenvolvedor > Ferramentas para desenvolvedores.</li>
+                    <li>Use o atalho "Alt + Command + I". </li>
+                </ol>
+               <br/>
+            </li>    
+            <li>Passo a passo II:  
+                <ol>
+                    <li>Indo em personalizar e controlar o Google Chrome </li>  
+                    <li>Clique em mais ferramentas, depois clique em ferramenta do desenvolvedor </li> 
+                    <img class="imagem1" src="imagens/ferramenta_do_desenvolver_3.jpg" alt="Foto do passo a passo" width="50%">  
+                </ol>                    
+               
+            </li>
+
+        </ul>
+
+        <h2 id="estrutura">Estrutura Básica do HTML</h2>
+        <small><a href="#inicio">Voltar</a></small>
+
+        <p><abbr title="Hypertext Markup Language">HTML</abbr>é um acrônimo para Hypertext (hipertexto) Markup (marcação) Language (linguagem), ela não é uma linguagem de programação em si, porém é uma linguagem na forma de escrever, tendo sintaxe e semântica, Hypertext é uma marcação especifica que nos leva a outro texto, isso mais no passado, agora sendo relacionado a imagens, a videos. Bastante simples usar o HTML, podemos ver ele clicando com o botão direito na pagina e selecionar a opção "view Page Source".</p> 
+        
+        <p>Para utilizar as Tags HTML e construir uma boa página web você precisa da estrutura base para iniciar o trabalho.</p>
+        <img src="./imagens/estrutura_basica_html.png" alt="estrutura basicahtml" width="50%">
+        É com essa estrutura que você começa qualquer trabalho com HTML.
+
+        <p>A seguir vou falar mais sobre cada uma das estruturas que foram aqui citadas.</p>
+        <ul>
+
+        <li> <img src="./imagens/html.jpg" alt="tag html" width="100px"> – Todo o trabalho feito em HTML deve conter essa tag, já que ela vai indicar todo o caminho a ser trilhado, além, é claro, de reconhecer cada tag que vai ser incluída. Se você não indicar essa tag no início e no final, qualquer tipo de atributo não vai ser reconhecido;</li><br/>
+        <li><img src="./imagens/head.jpg" alt="tag head" width="100px">– A Tag head é o cabeçalho do seu código. Normalmente não tem nenhum tipo de utilidade prática na página, mas ajuda a delimitar o início do trabalho feito com HTML;</li><br/>
+        <li><img src="./imagens/title.jpg" alt="tah title" width="100px">– Essa é a tag html mais importante, pois ela vai determinar o título da página. Essa é uma das tags que todos que trabalham com SEO devem estar sempre atentos;</li><br/>
+        <li><img src="./imagens/meta.jpg" alt="tah meta" width="100px"> – Ela permite a inserção de metadados no seu documento, e para isso é importante utilizar charset=”UTF-8″, para que as informações inseridas estejam dentro do padrão latino americano. Em outras palavras, é o reconhecimento dos atributos que serão inseridos depois.;</li><br/>
+            <li><img src="./imagens/body.jpg" alt="tah body" width="100px"> – Com tudo inserido, é hora de colocar a tag body, que é onde você vai colocar finalmente as informações referentes ao código a ser trabalhado, ou seja, está tag representa o corpo do documento.</li><br/>
+        
+        </ul>
+            <h2 id="tag">Como as tags funcionam</h2>
+            <small><a href="#inicio">Voltar</a></small>
+        <p>As Tags funcionam da seguinte forma:
+       <br/>
+            Você faz a abertura delas, coloca o nome da Tag e as fecha como no exemplo. No caso dessa Tag, seu conteúdo é a de título, juntando a abertura, fechamento e o conteúdo, teremos um Elemento HTML.</p>
+         <img src="./imagens/tag_h1.png" alt="tag h1" width="150px">
+
+        <p>
+            Há também Elementos vazios que diferente do exemplo acima não se fecha daquela forma, mas assim:
+            <br/> 
+            Essa sendo para imagem possuindo atributos, que veremos mais tarde seu funcionamento. 
+        </p>
+        <img src="./imagens/tag_img.png" alt="tag img" width="200px"> 
+
+        <h3 id="atributos_da_tag">Atributos das Tags</h3>
+        
+        <p>Atributos das Tags são palavras especiais usadas dentro da tag de abertura para controlar o comportamento do elemento.</p>
+        <ul>
+        <h4>Algumas utilizadas são:</h4> 
+            <li>class=”…“ – Indica classe ao elemento, podendo ser utilizada em um ou mais elementos;</li>
+            <li>id=”…“ – Indica um id ao elemento, que pode ser atribuído a somente um ;</li>
+            <li>style=”…” – Inclusão de elementos CSS, que vão dar estilos ao html;</li>
+            <li>lang=”…” – Indica o idioma principal;</li>
+            <li>title=”…” – Título do elemento;</li> 
+            
+        </ul>
+        <h3 id="tag_para_textos">Tags para textos</h3>
+        <small><a href="#inicio">Voltar</a></small>
+        <p>Elaborar um título de um artigo, seja título principal ou secundário, parte de um trabalho feito com Tags HTML, e por isso também é uma forma de você conseguir explorar todas as possibilidades de como organizar o conteúdo.
+       <br/>
+        Elas são apresentadas da seguinte maneira:</p>
+        <img src="./imagens/h.png" alt="tags de titulo" width="50%">
+
+        <p>Entendendo então como você começa a construir um conteúdo escrito, é preciso também pensar em estratégias para o estabelecimento de textos.<br/>
+Eles servem para ornamentar o texto ou para indicar alguns detalhes que precisam ser de fato destacados.<br/>
+
+Alguns deles são:</p>
+<ul>
+
+    <li> <img src="./imagens/p.jpg" alt="tag p" width="100px">– É a tag que vai definir o início de um parágrafo. Onde o seu texto vai começar;</li><br/>
+    <li> <img src="./imagens/span.jpg" alt="tag span" width="100px">– São tags muito próximas da <img src="./imagens/p.jpg" alt="tag p" width="100px"> mas possuem uma função diferente. Ela é utilizada para outros elementos como imagens, legendas ou informações que vão somar ao texto. Formam uma espécie de container;</li><br/>
+    <li> <img src="./imagens/b.jpg" alt="tag b" width="100px"> Transforma todo o texto dentro desse intervalo em negrito;</li><br/>
+    <li> <img src="./imagens/i.jpg" alt="tag i" width="100px"> – Transforma todo o texto dentro desse intervalo em itálico;</li><br/>
+    <li> <img src="./imagens/br.jpg" alt="tahg br" width="100px">– Tag de HTML utilizada para quebra de linha. Não necessita de fechamento.</li><br/>
+    <li> <img src="./imagens/hr.jpg" alt="tag hr" width="100px">– Formação de linha horizontal no texto.</li><br/>
+
+</ul>
+
+    <h3 id="tag_para_listas">Tags de Listas</h3>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>As tags de listas são indicadas para a organização de informações que são pensadas para determinar uma ordem, ou não necessariamente.
+        <br/>
+    Para uma lista ordenada você utiliza o atributo "ol" que faz uma lista ordenada, e o item "li" serve para organizar as informações conforme você quer.: </p>
+    <img src="./imagens/lista ordenada.png" alt="tag lista ordenada" width="50%" >
+    <p>O atributo "ul" monta uma lista não ordenada.</p>
+    <img src="./imagens/lista não ordenada.png" alt="tag lista não ordenada" width="50%">
+
+
+    <h3 id="como_criar_links">Como criar links</h3>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>As tags de link também são muito importantes, e praticamente ajudaram a montar a internet que temos hoje, especialmente a construção dos conteúdos e conexões entre eles.<br/>
+
+        Essa tag pode linkar qualquer coisa, dentro da mesma página, ou mesmo alguns elementos que não são da mesma página. Isso já é uma forma de conseguir fazer parcerias e até dar mais visibilidade para o seu conteúdo.<br/>
+        
+        Por este motivo é interessante o seu uso, e até mesmo indicado.<br/>
+        
+        Elas são definidas por <img src="./imagens/a.jpg" alt="tag ancora" width="100px"> e podem ser feitas assim:</p>
+        <img src="./imagens/link.jpg" alt="tag link" width="50%">
+        <p>Tendo esse resultado:</p>
+        <p>Para acessar o Google, <a href="https://www.google.com">clique aqui.</a></p>
+    
+        <h3 id="multimidia">Tags de multimídia</h3>
+        <small><a href="#inicio">Voltar</a></small>
+            <h4 id="img">Como colocar imagens no seu <abbr title="Hypertext Markup Language">HTML</abbr></h4>    
+                <p>As tags de multimídia também são essenciais para montar uma boa página visualmente para o seu público.<br/>
+                 Elas podem incluir imagens, vídeos, sons, iframes, e qualquer outro tipo de multimídia que pode ser incorporado.</p>
+                <p>Para imagens é utilizada a linguagem <img>, sem fechamento. Como no exemplo:</p>
+                <img src="./imagens/img.png" alt="tag para por imagem" width="50%">
+        
+            <h4 id="video">Como colocar vídeos no seu <abbr title="Hypertext Markup Language">HTML</abbr></h4> 
+            <p>Para vídeos temos a seguinte sequência:</p>
+            <img src="./imagens/vídeo.png" alt="tag para vídeo" width="50%">
+            <p>Note que tem o início "source src=…" que é  a indicação de onde vão ser pegos os vídeos,e duas “types”. Isso é proposital para que se tenham duas opções de reprodução e possa atingir mais pessoas. Ao final é indicado o texto “Seu navegador não possui suporte para Vídeos” caso não tenha recursos para a reprodução.</p>
+
+            <h4 id="audio">Como colocar áudio no seu <abbr title="Hypertext Markup Language">HTML</abbr></h4> 
+            <p>A tag áudio também segue o mesmo funcionamento:</p>
+            <img src="./imagens/audio.png" alt="tag para audio" width="50%">
+            <hr/>
+
+                      
+</body>
+<footer>
+    <blockquote cite="https://www.dio.me">
+        <p>Essa página foi desenvolvida como projeto do Bootcamp da DIO.me</p>
+    </blockquote>
+
+    
+    
+<h3 style="line-height: 2%">Raffaela Freitas</h3>
+<h4 style="line-height: 2%">Contatos:</h4>
+    
+      <div>
+        <ul>
+            <li><a href="mailto:irsf84@gmail.com">e-mail: irsf84@gmail.com </a></li>
+            <li><a href="tel:+351911585803">celular: +351911585803</a></li>
+            <li><a href="https://www.instagram.com/raffafe_/">Instagran: @Raffafe_</a></li>
+          </ul>
+      </div>
+      <small><a href="#inicio">Voltar</a></small>
+</footer>
+</html>
